@@ -2,7 +2,7 @@
 <html lang="eng">
 <head>
     <title>Sweettea</title>
-    <link rel="stylesheet" href="report.css">
+    <link rel="stylesheet" href="../css/report.css">
 </head>
 <body>
     <div class="centerbox">
@@ -10,7 +10,7 @@
 
             <div class="profile">
                 <div class="logotab">
-                    <img id="logo" src="acclogo.png" alt="Account Profile Logo">
+                    <img id="logo" src="../img/acclogo.png" alt="Account Profile Logo">
                 </div>
 
                 <div class="nameaddress">
