@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@900&family=Roboto:wght@500&display=swap');*
+*
+{
+    font-family: Outfit;
+    color: #e27396;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #efcfe3;
+    background-image: url('ng.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* HEADER */
+header{
+    background-color: #b3dee2;
+    height:100px;
+    width:100%;
+}
+
+header .head{
+    width:70%;
+    height: 100%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header a{
+    color: white;
+    font-family: Outfit;
+    text-decoration: none;
+}
+
+header .sweetteas {
+    width:40%;
+    display: flex;
+    float:left;
+}
+
+header .tabs{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+header .tabs a {
+    padding: 0 30px;
+}
+
+#coloredsignin{
+    color: #e27396;
+}
+
+
+/*WCENTER BOX*/
+
+.centerbox{
+    border-radius: 20px;
+    background-color: #EA9AB2    ;
+    margin: auto;
+    height: 700px;
+    width: 70%;
+    transform: translate(0%, 10%);
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #c9c2c4;
+}
+
+/*WHITE LEFT BOX*/
+
+.whitebox{
+    border-radius: 4%;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    float:left;
+}
+
+.content{
+    height: 100%;
+}
+
+/*PROFILE WHITE LEFT BOX*/
+.whitebox .profile{
+    height: 20%;
+    align-items: center;
+    padding-top: 6%;
+    padding-left: 6%;
+    
+}
+
+.logotab{
+    width: 30%;
+    height: 70%;
+    float: left;
+    transform: translate(0%, 5%);
+}
+
+#logo{
+    width: 100%;
+    height: 80%;
+}
+
+.nameaddress{
+    width: 60%;
+    height: 80%;
+    padding-top: 7%;
+    padding-right: 5%;
+    float: right;
+}
+
+.nameaddress p{
+    font-size: 18px;
+}
+
+/*TABS WHITE LEFT BOX*/
+.buttontabs{
+    height: 80%;
+    
+}
+
+#dash{
+    height: 10%;
+    font-size: 25px;
+    font-family: Outfit;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 6%;
+    background: linear-gradient(to left, #EA9AB2 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+#dash:hover {
+    background-position: right bottom;
+    color: white;
+  }
+
+#rep{
+    height: 10%;
+    font-size: 25px;
+    font-family: Outfit;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 6%;
+    background: linear-gradient(to left, #EA9AB2 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+#rep:hover {
+    background-position: right bottom;
+    color: white;
+  }
+
+#ord{
+    height: 10%;
+    font-size: 25px;
+    font-family: Outfit;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 6%;
+    background: linear-gradient(to left, #EA9AB2 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+#ord:hover {
+    background-position: right bottom;
+    color: white;
+  }
+
+#item{
+    height: 10%;
+    font-size: 25px;
+    font-family: Outfit;
+    text-align: left;
+    padding-left: 20%;
+    margin-top: -1%;
+    padding-top: 5%;
+    background: linear-gradient(to left, #EA9AB2 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all .5s ease-out;
+}
+
+#item:hover {
+    background-position: right bottom;
+    color: white;
+  }
+
+/*REPORT DASHBOARD*/
+.reportdashboard{
+    border: 1px solid black;
+    width: 100%;
+    transform: translate(0%, 10%);
+}
+
+#rephead{
+    border: 1px solid black;
+    color: white;
+}
+
+#repsubhead{
+    border: 1px solid black;
+    color: white;
+}
+
+#peso{
+    border: 1px solid black;
+    color: white;
+}
+
+#date{
+    border: 1px solid black;
+    color: white;
+}

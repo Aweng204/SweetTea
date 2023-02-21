@@ -25,8 +25,8 @@ if(isset($_POST["submit"])){
         $query->close();
     }
 
-    $stmt = $conn->prepare("INSERT INTO regusers(name, email, password, cpassword) values(?,?,?,?)");
-    $stmt->bind_param("ssss", $name, $email, $password, $cpassword);
+    $stmt = $conn->prepare("INSERT INTO regusers(name, email, cpassword) values(?,?,?)");
+    $stmt->bind_param("sss", $name, $email, $cpassword);
     $stmt->execute();
     $stmt->close();
     $conn->close();
