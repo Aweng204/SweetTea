@@ -76,6 +76,10 @@ header{
     color: #776E71;
 }
 
+#cart{
+    color: var(--clr-dpink);
+}
+
 /*ORDER SUCCESS SECTION*/
 .bluebox{
     background-color: var(--clr-lightblue);
